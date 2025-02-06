@@ -1,0 +1,17 @@
+body 
+	{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 1em;
+	color: #ffffff;
+	background-color: #121212;
+	}
+	table 
+	{
+		background-color: #1E1E1E ;		
+	}
+
+	
+/*
+you can add ids which allows you to specify different css code
+as well as classes
+*/

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Website",
+			"path": "."
+		},
+		{
+			"name": "favicon_io",
+			"path": "../../Downloads/favicon_io"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Website"
+	}
+}
