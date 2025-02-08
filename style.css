@@ -3,9 +3,15 @@ body
 	font-family: Verdana, Geneva, Tahoma, sans-serif; /* the list of fonts tells us that if the first does not work than the next one will be used */
 	font-size: 1em;
 	color: #ffffff;
-	background-color: #121212;
+	
+	
 	text-align: left;
 	text-shadow: 3px 3px 6px #888;
+	
+	background-image: url(photo-1618005182384-a83a8bd57fbe.jpeg);
+	background-position: center;
+	background-size: cover;
+	
 	}
 	#header{
 		text-align: center;
@@ -63,6 +69,7 @@ body
 	
 	#box1{
 		margin:auto ;
+		margin-top : 15px;
 	}
 	
 	#box2{
@@ -70,17 +77,37 @@ body
 		margin-bottom: 10px;
 	}
 	
-
+	
+	#button1{
+		font-size:medium;
+		background-color:lightgray; 
+		color:black; border-radius: 7px; 
+	}
+	
+	#button1:hover{
+		background-color: darkgray; 
+		color: white;
+	}
+	
+	#button1:active{
+		background-color: darkslategray; 
+        color: white;
+	}
 	
 	
-	
-	.separator{
+	.separator >{
 		border-bottom: 1px dashed #ccc;
 		margin-bottom: 20px;
 		padding-bottom: 20px;
 	}
 	
+	
+
 	/*
+	
+	
+	
+	Remember to add a pop ups using the position types 
 	
 	
 	– overflow helps us if text is too big in a box
