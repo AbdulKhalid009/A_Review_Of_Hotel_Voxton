@@ -4,24 +4,101 @@ body
 	font-size: 1em;
 	color: #ffffff;
 	background-color: #121212;
-	text-align: center;
-
+	text-align: left;
+	text-shadow: 3px 3px 6px #888;
 	}
+	#header{
+		text-align: center;
+	}
+	
 	table 
 	{
 		background-color: #1E1E1E ;		
+		
+	}
+
+	#hotel_exteriors{
+		margin-top: 200px;
 	}
 
 	h1{
-		border: 3px solid #ffffff;
+		border: 3px solid #fbfbfb;
 		text-align: center;
 		border-radius: 10px
 	}
 	
-	
-	
-	
-/*
-you can add ids which allows you to specify different css code
-as well as classes
+			
+	#img1{
+		height: 400px;
+		width: 500x;
+		float: left;
+		margin-right: 25px;
+	}
+	#gif{
+		margin: auto;
+		width: 600px;
+		height: 400px;
+	}
+
+
+	/* 
+
+  Every element is a rectangular box with:
+  - Content area (innermost layer)
+  - Padding (next layer)
+  - Border (next layer)
+  - Margin (outermost layer)
 */
+	
+	.box{
+		border: 2px solid darkslategray ;
+		padding: 40px;
+		height: auto;
+		width: 50%;
+		background-color: #D3D3D3 ; 
+		box-shadow: 10px 5px 5px #888; 	/* 1st value is horizontal offset, 2ns is vertical offset and 3rd is blur radius */
+		color: black;
+	}
+	
+	
+	#box1{
+		margin:auto ;
+	}
+	
+	#box2{
+		margin:auto ;
+		margin-bottom: 10px;
+	}
+	
+
+	
+	
+	
+	.separator{
+		border-bottom: 1px dashed #ccc;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
+	}
+	
+	/*
+	
+	
+	– overflow helps us if text is too big in a box
+	– e.g. overflow auto adds a scrollbar if text is too big
+	
+	
+	
+	
+	#box2{
+		border: 5px solid black ;
+		height: 5px;				
+		overflow: auto ;
+	}
+	*/
+	
+	/*#img2{
+		float: left;
+		this allows the text to be next to the image
+	}*/
+	
+	
